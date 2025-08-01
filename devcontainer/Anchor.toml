@@ -1,0 +1,17 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.localnet]
+safemint_token = "SaFeM1nT111111111111111111111111111111111"
+insurance_protocol = "SaFeInsu111111111111111111111111111111111"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "node tests/safemint.test.ts"
