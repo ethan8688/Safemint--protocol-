@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "programs/safemint_token",
+  "programs/insurance_protocol",
+]
+resolver = "2"
